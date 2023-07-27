@@ -14,7 +14,7 @@ class TestSong:
         out_of_touch = Song("Out of Touch", "Hall and Oates", "Pop")
         assert(out_of_touch.name == "Out of Touch")
         assert(out_of_touch.artist == "Hall and Oates")
-        assert(out_of_touch.genre == "Pop")
+        assert(out_of_touch.genres == "Pop")
 
     def test_has_song_count(self):
         '''counts the total number of Song objects.'''
